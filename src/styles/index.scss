@@ -6,6 +6,15 @@ $bg-color: #F3F3F3;
   box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/bebasneuebold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
@@ -299,6 +308,12 @@ h1 {
 }
 @media screen and (max-width: 600px) {
 
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 15ch;
+  }
   .img-block {
     margin-bottom: 25px;
     grid-row: 3/4;
@@ -349,6 +364,7 @@ h1 {
 
 
 @media screen and (max-width: 374px) {
+
 
   .img-block {
     padding-bottom: 5%;
